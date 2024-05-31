@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1 and Task 2 in Console</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <button id="open-dialog">Open Dialog</button>
+
+    <div id="dialog" class="dialog">
+        <form id="dialog-form">
+            <label for="value-a">Input A:</label>
+            <input type="number" id="value-a" class="dialog-input"><br>
+
+            <label for="value-b">Input B:</label>
+            <input type="number" id="value-b" class="dialog-input" required><br>
+
+            <label for="value-c">Input C:</label>
+            <input type="number" id="value-c" class="dialog-input"><br>
+
+            <button type="button" id="save-button">Save</button>
+            <button type="button" id="close-button">Close</button>
+
+            <p id="result-message" class="result-message"></p>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+    <!-- The next code run into console of navigator Chrome or wherever you want -->
+    <script src="once.js"></script>
+</body>
+</html>
